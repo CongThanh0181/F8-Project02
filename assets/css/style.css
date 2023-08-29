@@ -344,6 +344,7 @@ a {
 .courses-item {
     border-radius: 12px;
     border: 1px solid #E2DFDA;
+    flex-grow: 1;
 }
 
 .courses-item:hover {
@@ -352,7 +353,8 @@ a {
 }
 
 .courses-item-img {
-    width: 370px;
+    width: calc(100% + 2px);
+    margin-left: -1px;
     height: 278px;
     object-fit: cover;
     border-radius: 12px 12px 0px 0px;
